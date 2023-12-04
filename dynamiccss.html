@@ -1,0 +1,20 @@
+<html>
+<head>
+<style>
+#myParagraph {
+color: red;
+}
+</style>
+
+<body>
+<p id="myParagraph">Hello, world!</p>
+<button id="myButton">Change Color</button>
+<script>
+const button = document.getElementById('myButton');
+const paragraph = document.getElementById('myParagraph');
+button.addEventListener('click', function() {
+paragraph.style.color = 'blue';
+});
+</script>
+</body>
+<html>
